@@ -28,7 +28,7 @@ nav ul li a:hover { color:black; }
 .textoindex h1 { font-size: 30px; line-height: 50px;} 
 .cajasindex:hover .textoindex { display: block; } 
 
-.textobio { display: none; position: absolute; width: 19%; top: 50%; opacity: 0.8;} 
+.textobio { display: none; position: absolute; width: 19%; top: 49%; opacity: 0.8;} 
 .cajasindex:hover .textobio { display: block; } 
 #imgtextobio:hover {filter: none; } 
 
