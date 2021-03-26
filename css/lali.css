@@ -30,6 +30,7 @@ nav ul li a:hover { color:black; }
 .textoindex h1 { font-size: 30px; line-height: 50px;} 
 .cajasindex:hover .textoindex { display: block; } 
 
+footer { background-color:#aa895e; width: 100%; text-align: center; padding: 10px;}
 
 
 @media (max-width:1300px) { 
