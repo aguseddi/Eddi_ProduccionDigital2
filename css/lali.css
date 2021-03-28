@@ -30,7 +30,21 @@ nav ul li a:hover { color:black; }
 .textoindex h1 { font-size: 30px; line-height: 50px;} 
 .cajasindex:hover .textoindex { display: block; } 
 
-footer { background-color:#aa895e; width: 100%; text-align: center; padding: 10px;}
+.titulo { color: black; } 
+
+iframe { width:800px; height:315px; } 
+
+.biocontenedor { color: black; font-size:17px; line-height: 50px; text-align: justify; flex-flow: wrap;} 
+.txtbio1 { float: left; width: 51%; margin: 5%; margin-bottom: 3%;} 
+.txtbio2 { float: right; width: 49%; margin-right: 5%; margin-top: 2%;} 
+.biocontenedor img {border: 6px solid #aa895e; transition: 1s;} 
+.biocontenedor img:hover  { transform: scale(1.1); } 
+.imgbiotxt1 { margin-top: 5%; margin-bottom: 1%; width: 530px;} 
+.imgbiotxt2 { margin-left: 5%; margin-bottom: 5%; width: 600px;} 
+
+
+
+footer { clear:both; background-color:#aa895e;  text-align: center; padding: 10px;}
 
 
 @media (max-width:1300px) { 
