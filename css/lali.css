@@ -30,19 +30,24 @@ nav ul li a:hover { color:black; }
 .textoindex h1 { font-size: 30px; line-height: 50px;} 
 .cajasindex:hover .textoindex { display: block; } 
 
-.titulo { color: black; } 
+.titulo { color: black; transform: scale(1.4);} 
 a { text-decoration: none; } 
 
-.musica { color: black; font-size: 20px; text-align: center; font-weight: 200; flex-flow: wrap;} 
-.musica p { margin-bottom: 20px; } 
+.contenido { color: black; font-size: 20px; text-align: center; font-weight: 200; flex-flow: wrap;} 
+.contenido p { margin-bottom: 20px; } 
+.contenido img:hover {filter: saturate(1.3); transform: scale(1.1);}
 .albumes { float: left;  width: 42%; margin: 4%;} 
 .albumes img { width: 40%; margin: 10px; border: 6px solid #aa895e;} 
-.musica img:hover {filter: saturate(1.3); transform: scale(1.1);}
 .sencillos { float: right;  width: 42%; margin: 4%;} 
 .sencillos img { width: 28%; margin: 6px; border: 4px solid #aa895e;} 
 .videos div {  width: 12%; margin-left: 19%;  margin-bottom: 50px;   } 
 .videos div p { color:white; margin: 0%; padding: 10px; background-color: #aa895e; text-decoration: none; } 
 iframe { width:600px; height:315px; margin-left: 2%; margin-right: 1%; margin-bottom: 2%;} 
+
+.actuacion img { width: 28%; margin: 6px; border: 5px solid #aa895e;} 
+.tv { float: left;  width: 44%; margin: 3%;} 
+.cine { float: right;  width: 44%; margin: 3%; margin-bottom: 4%;} 
+.netflix { float: right; width: 50%; margin-bottom: 5%; } 
 
 .biocontenedor { color: black; font-size:17px; line-height: 50px; text-align: justify; flex-flow: wrap;} 
 .txtbio1 { float: left; width: 51%; margin: 5%; margin-bottom: 3%;} 
@@ -52,9 +57,8 @@ iframe { width:600px; height:315px; margin-left: 2%; margin-right: 1%; margin-bo
 .imgbiotxt1 { margin-top: 5%; margin-bottom: 1%; width: 530px;} 
 .imgbiotxt2 { margin-left: 5%; margin-bottom: 5%; width: 550px;} 
 
-
-
 footer { clear:both; background-color:#aa895e;  text-align: center; padding: 10px;}
+footer p { margin-bottom: 5px; } 
 
 
 @media (max-width:1300px) { 
